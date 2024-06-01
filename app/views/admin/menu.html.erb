@@ -1,0 +1,13 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "admin", "data-turbo-track": "reload" %>
+<% end %>
+
+<%= link_to "Back to home", root_path, class: "text-blue-500 hover:text-orange-500" %>
+
+<h1 class="font-bold text-4xl">Admin menu</h1>
+
+<ul class="menu">
+  <% 5.times do |i| %>
+    <li class="menu-item">項目<%= i + 1 %></li>
+  <% end %>
+</ul>

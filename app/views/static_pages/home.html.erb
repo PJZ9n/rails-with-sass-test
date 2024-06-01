@@ -4,3 +4,16 @@
 <div class="text-5xl animate-pulse">Hello tailwindcss!</div>
 
 <span class="my-title">.my-title in application.scss</span>
+
+<%= link_to "Go to admin menu", admin_path, class: "px-3 py-5 bg-green-500 hover:shadow-xl rounded-full block" %>
+
+<section class="mt-5">
+  <h2>ここではadmin.scssのスタイルは適用されない</h2>
+  <div class="p-3 border">
+    <ul class="menu">
+      <% 5.times do |i| %>
+        <li class="menu-item">項目<%= i + 1 %></li>
+      <% end %>
+    </ul>
+  </div>
+</section>
