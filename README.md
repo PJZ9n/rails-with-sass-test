@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+tailwindcss-rails gemとdartsass-rails gemを使ったデモ
 
-Things you may want to cover:
+![image](https://github.com/PJZ9n/rails-with-sass-test/assets/38120936/152fc740-e36e-4517-a0e1-0835811dd38f)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![image](https://github.com/PJZ9n/rails-with-sass-test/assets/38120936/b4211383-2281-4d64-944f-982e6b57ba5f)
